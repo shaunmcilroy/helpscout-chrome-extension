@@ -37,7 +37,7 @@ var getUnassignedFolder = function(config, callback) {
       'Authorization': apiAuth,
       'Content-Type': 'application/x-www-form-urlencoded'
     },
-    'baseUrl': 'https://api.helpscout.net/v1/'
+    'baseUrl': 'https://api.helpscout.net/v2/'
   };
   var endpoint = request.baseUrl + 'mailboxes/' + JSON.parse(config.mailbox).id + '/folders.json';
 
